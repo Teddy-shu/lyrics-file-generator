@@ -1,0 +1,70 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.app{
+  display: flex;
+  flex-direction: column;
+}
+.preview{
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  top: 0;
+  height: 100vh;
+  width: 100vw;
+  opacity: 0.5;
+  background: #0A090B;
+  z-index: 1;
+}
+div{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  height: auto;
+}
+ol{
+  list-style-type: none;
+  background: white;
+}
+li{
+  margin: 20px;
+}
+button, label{
+  margin-left: 20px;
+}
+span{
+  margin-left: 50px;
+}
+.show-result{
+  position: fixed;
+  height: 80vh;
+  width: 80vw;
+  margin-left: 10vw;
+  margin-top: 10vh;
+  background: white;
+  text-align: center;
+  opacity: 1 !important;
+  z-index: 10;
+  overflow: auto;
+}
+.close-btn{
+  position: relative;
+  float: right;
+  font-size: 1.5rem;
+  background: #080C12
+  color: #D5DEEC;
+}
+
+.output-btn{
+  position: relative;
+  float: left;
+  font-size: 1.5rem;
+  background: #080C12
+  color: #D5DEEC;
+}
