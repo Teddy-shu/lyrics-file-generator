@@ -1,5 +1,6 @@
 "# lyrics-file-generator" 
 
+"# install react: npx create-react-app "projectFileName" " 
 
 ## self note
 ```
